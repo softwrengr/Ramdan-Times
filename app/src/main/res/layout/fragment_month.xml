@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tab_background_color"
+    tools:context=".fragments.MonthFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp">
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:maxLines="1"
+            android:text="Month"
+            android:paddingLeft="2sp"
+            android:textColor="@color/adapter_title_color"
+            android:textSize="@dimen/running_text_size"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:alpha="1"
+            android:gravity="center"
+            android:text="Hijri"
+            android:textColor="@color/white"
+            android:textSize="@dimen/running_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Sehar"
+            android:textColor="@color/adapter_title_color"
+            android:textSize="@dimen/running_text_size"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Iftar"
+            android:textColor="@color/adapter_title_color"
+            android:textSize="@dimen/running_text_size"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_month_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

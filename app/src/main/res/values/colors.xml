@@ -3,4 +3,22 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+
+    <color name="colorGray">#111B24</color>
+    <color name="colorDarkGray">#0D1720</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#cc0000</color>
+    <color name="dark_red">#8F0303</color>
+    <color name="green">#FF16A629</color>
+
+
+    <color name="light_color">#1f2e36</color>
+    <color name="header_color">#16222C</color>
+    <color name="tab_text_color">#29B6F6</color>
+    <color name="tab_background_color">#03151e</color>
+    <color name="edit_text_background">#1F2D36</color>
+    <color name="grey">#808080</color>
+    <color name="adapter_title_color">#F5F5F5</color>
 </resources>

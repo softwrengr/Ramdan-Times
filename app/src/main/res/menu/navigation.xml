@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_month"
+        android:icon="@drawable/calendar"
+        android:title="Month" />
+
+    <item
+        android:id="@+id/navigation_clock"
+        android:icon="@drawable/clock"
+        android:title="Ramadan" />
+
+
+    <item
+        android:id="@+id/navigation_duaw"
+        android:icon="@drawable/worship"
+        android:title="Duas" />
+
+    <item
+        android:id="@+id/navigation_contact"
+        android:icon="@drawable/settings"
+        android:title="Setting" />
+</menu>
