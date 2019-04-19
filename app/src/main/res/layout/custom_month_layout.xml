@@ -17,8 +17,8 @@
             android:layout_height="45sp"
             android:gravity="center_vertical"
             android:orientation="horizontal"
-            android:paddingLeft="3sp"
-            android:paddingRight="3sp">
+            android:paddingLeft="2sp"
+            android:paddingRight="2sp">
 
             <TextView
                 android:id="@+id/tv_month"
@@ -34,7 +34,7 @@
                 android:id="@+id/tv_hijri"
                 android:layout_width="0sp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="1.2"
                 android:alpha="1"
                 android:gravity="center"
                 android:text="Hijri"
@@ -47,7 +47,7 @@
                 android:id="@+id/tv_sehar"
                 android:layout_width="0sp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1.8"
+                android:layout_weight="1.2"
                 android:gravity="center"
                 android:maxLines="1"
                 android:text="Sehar"
@@ -61,7 +61,7 @@
                 android:layout_gravity="center_vertical"
                 android:maxLines="1"
                 android:text="Ifar"
-                android:layout_weight="1"
+                android:layout_weight="1.2"
                 android:textColor="@color/adapter_title_color"
                 android:textSize="14sp" />
 

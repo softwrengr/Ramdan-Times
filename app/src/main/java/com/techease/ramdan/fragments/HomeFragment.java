@@ -53,8 +53,8 @@ public class HomeFragment extends Fragment {
                     GeneralUtils.connectHomeFragment(getActivity(), new DuasFragment());
                     return true;
 
-                case R.id.navigation_contact:
-                    GeneralUtils.connectHomeFragment(getActivity(), new MonthFragment());
+                case R.id.navigation_setting:
+                    GeneralUtils.connectHomeFragment(getActivity(),new SettingFragment());
                     return true;
             }
             return false;

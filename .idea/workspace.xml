@@ -11,15 +11,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3571bb5d-45ef-4a3d-9a0d-929afacb448d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/activities/SplashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/SettingFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/ClockFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/ClockFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/MonthFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/MonthFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/DuasFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/DuasFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/utilities/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/utilities/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_month_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_month_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_clock.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_clock.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_month.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_month.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,56 +66,48 @@
     <session id="-107028822">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="12" />
-          <entry key="java" value="35" />
-          <entry key="xml" value="33" />
+          <entry key="gradle" value="14" />
+          <entry key="java" value="51" />
+          <entry key="png" value="1" />
+          <entry key="xml" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="12" />
-          <entry key="JAVA" value="35" />
-          <entry key="XML" value="33" />
+          <entry key="Groovy" value="14" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="51" />
+          <entry key="XML" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="10" />
-          <entry key="java" value="1531" />
-          <entry key="txt" value="33" />
-          <entry key="xml" value="510" />
+          <entry key="java" value="1752" />
+          <entry key="txt" value="43" />
+          <entry key="xml" value="833" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="10" />
-          <entry key="JAVA" value="1531" />
-          <entry key="PLAIN_TEXT" value="33" />
-          <entry key="XML" value="510" />
+          <entry key="JAVA" value="1752" />
+          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="XML" value="833" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/ClockFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,6 +116,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/Desktop/ramdan_keystore" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,24 +133,28 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/utilities/AlertUtils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/utilities/Config.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/models/MonthTimingModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_month.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/classes/MyVectorClock.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_month_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/utilities/GeneralUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/adapters/TimesAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_clock.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_duas.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/navigation.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/HomeFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/DuasFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/MonthFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/utilities/Config.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_month_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_clock.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_month.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/navigation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/activities/SplashActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/ClockFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/DuasFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_setting.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/SettingFragment.java" />
       </list>
     </option>
   </component>
@@ -140,8 +170,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -152,47 +183,18 @@
             <path>
               <item name="Ramdan-Times" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Ramdan-Times" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ramdan-Times" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="techease" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ramdan-Times" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="techease" type="462c0819:PsiDirectoryNode" />
-              <item name="ramdan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ramdan-Times" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="techease" type="462c0819:PsiDirectoryNode" />
-              <item name="ramdan" type="462c0819:PsiDirectoryNode" />
-              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Month&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/MonthFragment.java&#10;Mon&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/MonthFragment.java&#10;T&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/MonthFragment.java&#10;ho&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/HomeFragment.java&#10;HO&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/HomeFragment.java&#10;fra&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/res/layout/fragment_month.xml&#10;cus&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/res/layout/custom_month_layout.xml&#10;navi&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/res/menu/navigation.xml" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="SearchEverywhereHistoryKey" value="Se&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/SettingFragment.java&#10;du&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/DuasFragment.java&#10;Cloc&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/ClockFragment.java&#10;HOm&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/HomeFragment.java&#10;Main&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/activities/MainActivity.java&#10;Spl&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/activities/SplashActivity.java&#10;HO&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/HomeFragment.java&#10;mon&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/res/layout/fragment_month.xml&#10;Cl&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/ClockFragment.java&#10;cus&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/res/layout/custom_month_layout.xml&#10;Month&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/MonthFragment.java&#10;Ho&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/HomeFragment.java&#10;con&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/utilities/Config.java&#10;Mon&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/MonthFragment.java&#10;T&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/MonthFragment.java&#10;ho&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/java/com/techease/ramdan/fragments/HomeFragment.java&#10;fra&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/res/layout/fragment_month.xml&#10;navi&#9;FILE&#9;file:///Users/eapple/Documents/GitHub/Ramdan-Times/app/src/main/res/menu/navigation.xml" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
@@ -202,13 +204,16 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.techease.ramdan.activities" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.techease.ramdan.utilities" />
       <recent name="com.techease.ramdan.fragments" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/assets" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/assets" />
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/utilities" />
       <recent name="$PROJECT_DIR$/app/src/main/res/values" />
@@ -352,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555581459142</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="duas added">
+      <created>1555662947651</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555662947651</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -388,7 +400,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="api integrated for ramdan timing" />
-    <option name="LAST_COMMIT_MESSAGE" value="api integrated for ramdan timing" />
+    <MESSAGE value="duas added" />
+    <option name="LAST_COMMIT_MESSAGE" value="duas added" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -425,13 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/activities/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -446,16 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/utilities/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="140" selection-start-line="4" selection-start-column="140" selection-end-line="4" selection-end-column="140" />
         </state>
       </provider>
     </entry>
@@ -466,14 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_month.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/classes/MyVectorClock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -481,29 +469,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/utilities/GeneralUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="62" column="66" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_month_layout.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -511,14 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="74" column="101" selection-start-line="74" selection-start-column="101" selection-end-line="74" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_clock.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -537,56 +498,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/utilities/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="38" column="72" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
+        <state relative-caret-position="60">
+          <caret line="4" column="92" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_month_layout.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/MonthFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_clock.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_month.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigation.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        <state relative-caret-position="300">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/activities/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/ClockFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/HomeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="52" column="86" selection-start-line="52" selection-start-column="86" selection-end-line="52" selection-end-column="86" />
+        <state relative-caret-position="429">
+          <caret line="56" column="90" selection-start-line="56" selection-start-column="90" selection-end-line="56" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/DuasFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_setting.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="180">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/MonthFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/DuasFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="168">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/ClockFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/techease/ramdan/fragments/SettingFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        <state relative-caret-position="180">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -34,6 +34,7 @@ public class ClockFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_clock, container, false);
+        getActivity().setTitle("Clock Time");
         tvIftarTime = view.findViewById(R.id.iftar_time);
         tvSehriTime = view.findViewById(R.id.sehri_time);
         tvCountDown = view.findViewById(R.id.tv_countdown);
@@ -58,13 +59,13 @@ public class ClockFragment extends Fragment {
 
     private void countDownTimer() {
 
-        new CountDownTimer(200000, 1000) {
+        new CountDownTimer(2000, 1000) {
 
             public void onTick(long millisUntilFinished) {
                 String text =
-                        String.format(Locale.getDefault(), "Time Remaining\n %02d min: %02d sec",
-                                TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished) % 60,
-                                TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) % 60);
+                        String.format(Locale.getDefault(), "Time Remaining\n  %02d min: %02d sec",
+                                TimeUnit.MINUTES.toMinutes(millisUntilFinished) % 60,
+                                TimeUnit.SECONDS.toSeconds(millisUntilFinished) % 60);
                 tvCountDown.setText(text);
 
             }
@@ -75,4 +76,5 @@ public class ClockFragment extends Fragment {
 
         }.start();
     }
+
 }

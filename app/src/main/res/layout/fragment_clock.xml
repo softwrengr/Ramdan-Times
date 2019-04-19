@@ -3,23 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/header_color"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.ClockFragment">
 
     <com.iigo.library.ClockView
         android:id="@+id/clockView"
-        app:minute_hand_color="@color/colorPrimary"
-        app:hour_hand_color="@color/colorPrimary"
-        app:center_point_color="@color/colorPrimary"
-        app:ear_color="@color/colorPrimary"
-        app:edge_color="@color/colorPrimary"
-        app:foot_color="@color/colorPrimary"
-        app:head_color="@color/colorPrimary"
-        app:scale_color="@color/colorPrimary"
-        app:second_hand_color="@color/colorPrimary"
-        android:layout_centerInParent="true"
-        android:layout_width="200dp"
-        android:layout_height="200dp" />
+        app:minute_hand_color="@color/dark_red"
+        app:hour_hand_color="@color/dark_red"
+        app:center_point_color="@color/red"
+        app:ear_color="@color/green"
+        app:edge_color="@color/green"
+        app:foot_color="@color/green"
+        app:head_color="@color/green"
+        app:scale_color="@color/white"
+        app:second_hand_color="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:layout_width="220dp"
+        android:layout_height="220dp" />
 
 
     <RelativeLayout
@@ -27,6 +29,8 @@
         android:layout_below="@id/clockView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
         android:orientation="vertical">
 
 
@@ -34,7 +38,9 @@
             android:id="@+id/sehar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/green"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
             android:layout_marginLeft="10sp"
             android:text="Sehar"/>
 
@@ -44,7 +50,8 @@
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/sehar"
             android:layout_marginLeft="20sp"
-            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textColor="@color/white"
             android:text=""/>
 
         <TextView
@@ -53,7 +60,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_marginRight="10sp"
-            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textColor="@color/white"
             android:text=""/>
 
         <TextView
@@ -62,7 +70,9 @@
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@id/iftar_time"
             android:layout_marginRight="20sp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
             android:text="Iftar"/>
 
     </RelativeLayout>
@@ -76,6 +86,7 @@
         android:layout_marginTop="20sp"
         android:text="Time Remaing"
         android:textSize="22sp"
+        android:visibility="gone"
         android:textStyle="bold"/>
 
 </RelativeLayout>

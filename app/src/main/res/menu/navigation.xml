@@ -18,7 +18,7 @@
         android:title="Duas" />
 
     <item
-        android:id="@+id/navigation_contact"
+        android:id="@+id/navigation_setting"
         android:icon="@drawable/settings"
         android:title="Setting" />
 </menu>

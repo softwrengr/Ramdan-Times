@@ -30,6 +30,7 @@ public class DuasFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_duas, container, false);
+        getActivity().setTitle("Ramadan Duas");
         ButterKnife.bind(this, view);
         showPDF();
         return view;
