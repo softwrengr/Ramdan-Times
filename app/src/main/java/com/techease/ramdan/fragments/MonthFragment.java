@@ -80,7 +80,6 @@ public class MonthFragment extends Fragment {
 
                         JSONObject timingObject = itemObject.getJSONObject("timings");
 
-                        String strMonthDay = timingObject.getString("Fajr");
                         String strSeharTime = timingObject.getString("Fajr");
                         String strIftarTime = timingObject.getString("Maghrib");
 
@@ -89,7 +88,7 @@ public class MonthFragment extends Fragment {
                         JSONObject hijriMonthObject = hijriObject.getJSONObject("month");
 
 
-                        int dayHijriMonth = hijriMonthObject.getInt("number");
+                        String dayHijriMonth = hijriObject.getString("day");
                         String hijriMonthName = hijriMonthObject.getString("en");
 
                         JSONObject gregorianObject = dateObject.getJSONObject("gregorian");
@@ -97,7 +96,7 @@ public class MonthFragment extends Fragment {
 
                         MonthTimingModel model = new MonthTimingModel();
                         model.setStrMonthDay(date);
-                        model.setStrHijriDay(String.valueOf(dayHijriMonth)+ " " + hijriMonthName);
+                        model.setStrHijriDay(dayHijriMonth+ " " + hijriMonthName);
                         model.setStrSeharTime(strSeharTime);
                         model.setStrIftarTime(strIftarTime);
 

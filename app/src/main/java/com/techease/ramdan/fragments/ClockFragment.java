@@ -19,13 +19,16 @@ import com.techease.ramdan.classes.MyVectorClock;
 import com.techease.ramdan.utilities.GeneralUtils;
 
 import java.util.Calendar;
+import java.util.Locale;
+import java.util.concurrent.TimeUnit;
 
 
 public class ClockFragment extends Fragment {
     View view;
     ClockView mClockView;
     ClockHelper clockHelper;
-    TextView tvIftarTime,tvSehriTime,tvCountDown;
+    TextView tvIftarTime, tvSehriTime, tvCountDown;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -41,9 +44,9 @@ public class ClockFragment extends Fragment {
         return view;
     }
 
-    private void initViews(){
+    private void initViews() {
         Calendar calendar = Calendar.getInstance();
-        calendar.add(Calendar.HOUR,-2);
+        calendar.add(Calendar.HOUR, -2);
 
         mClockView.setTime(Calendar.HOUR, Calendar.MINUTE, Calendar.SECOND);
 
@@ -53,16 +56,21 @@ public class ClockFragment extends Fragment {
         countDownTimer();
     }
 
-    private void countDownTimer(){
-        new CountDownTimer(3000000, 1000) {
+    private void countDownTimer() {
+
+        new CountDownTimer(200000, 1000) {
 
             public void onTick(long millisUntilFinished) {
-                tvCountDown.setText("seconds remaining: " + millisUntilFinished / 1000);
+                String text =
+                        String.format(Locale.getDefault(), "Time Remaining\n %02d min: %02d sec",
+                                TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished) % 60,
+                                TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) % 60);
+                tvCountDown.setText(text);
 
             }
 
             public void onFinish() {
-                tvCountDown.setText("done!");
+                tvCountDown.setText("Iftar Time!");
             }
 
         }.start();
