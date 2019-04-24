@@ -63,6 +63,14 @@ public class GeneralUtils {
         return getSharedPreferences(context).getString("iftar_time","");
     }
 
+    public static String getLatitude(Context context) {
+        return getSharedPreferences(context).getString("latitude", "");
+    }
+
+    public static String getLongitude(Context context) {
+        return getSharedPreferences(context).getString("longitude", "");
+    }
+
 
     public static boolean reatailerLogin(Context context){
         return getSharedPreferences(context).getBoolean("retailer_loggedIn",false);

@@ -37,26 +37,45 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 
 public class MonthFragment extends Fragment {
     android.support.v7.app.AlertDialog alertDialog;
     View view;
-    GridView gvProducts;
+    @BindView(R.id.rv_month_data)
+    RecyclerView rvRamdanTiming;
     ArrayList<MonthTimingModel> timingModelArrayList;
     TimesAdapter timesAdapter;
-    RecyclerView rvRamdanTiming;
+
+    String strLat = "33.996132",
+            strLng = "71.465827",
+            strMonth = "4",
+            strYear = "2019";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_month, container, false);
-        rvRamdanTiming = view.findViewById(R.id.rv_month_data);
+        ButterKnife.bind(this,view);
+        getActivity().setTitle("Ramadan Timing");
+
         initViews();
         return view;
     }
 
     private void initViews() {
+        Calendar c = Calendar.getInstance();
+        int month = c.get(Calendar.MONTH);
+        strMonth = String.valueOf(month + 1);
+
+        strLat = GeneralUtils.getLatitude(getActivity());
+        strLng = GeneralUtils.getLongitude(getActivity());
+
+        Toast.makeText(getActivity(), strLat, Toast.LENGTH_SHORT).show();
+
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
         rvRamdanTiming.setLayoutManager(linearLayoutManager);
         timingModelArrayList = new ArrayList<>();
@@ -67,7 +86,7 @@ public class MonthFragment extends Fragment {
 
 
     private void getCategories() {
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, Config.GET_TIMING
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, Config.GET_TIMING + strLat + "&longitude=" + strLng + "&method=2&month=" + strMonth + "&year=" + strYear
                 , new com.android.volley.Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -96,7 +115,7 @@ public class MonthFragment extends Fragment {
 
                         MonthTimingModel model = new MonthTimingModel();
                         model.setStrMonthDay(date);
-                        model.setStrHijriDay(dayHijriMonth+ " " + hijriMonthName);
+                        model.setStrHijriDay(dayHijriMonth + " " + hijriMonthName);
                         model.setStrSeharTime(strSeharTime);
                         model.setStrIftarTime(strIftarTime);
 
@@ -111,7 +130,7 @@ public class MonthFragment extends Fragment {
                         String formattedDate = df.format(c);
 
                         if (formattedDate.equals(date)) {
-                            rvRamdanTiming.scrollToPosition(i-3);
+                            rvRamdanTiming.scrollToPosition(i - 3);
                         }
 
                     }
