@@ -74,7 +74,6 @@ public class MonthFragment extends Fragment {
         strLat = GeneralUtils.getLatitude(getActivity());
         strLng = GeneralUtils.getLongitude(getActivity());
 
-        Toast.makeText(getActivity(), strLat, Toast.LENGTH_SHORT).show();
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
         rvRamdanTiming.setLayoutManager(linearLayoutManager);
