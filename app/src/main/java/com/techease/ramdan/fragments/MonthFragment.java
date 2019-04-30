@@ -25,6 +25,7 @@ import com.techease.ramdan.models.MonthTimingModel;
 import com.techease.ramdan.utilities.AlertUtils;
 import com.techease.ramdan.utilities.Config;
 import com.techease.ramdan.utilities.GeneralUtils;
+import com.techease.ramdan.utilities.InternetUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -74,13 +75,20 @@ public class MonthFragment extends Fragment {
         strLat = GeneralUtils.getLatitude(getActivity());
         strLng = GeneralUtils.getLongitude(getActivity());
 
+        if(InternetUtils.isNetworkConnected(getActivity())){
+            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
+            rvRamdanTiming.setLayoutManager(linearLayoutManager);
+            timingModelArrayList = new ArrayList<>();
+            alertDialog = AlertUtils.createProgressDialog(getActivity());
+            alertDialog.show();
+            getCategories();
+        }
+        else {
+            Toast.makeText(getActivity(), "you have no active internet connection", Toast.LENGTH_SHORT).show();
+        }
 
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
-        rvRamdanTiming.setLayoutManager(linearLayoutManager);
-        timingModelArrayList = new ArrayList<>();
-        alertDialog = AlertUtils.createProgressDialog(getActivity());
-        alertDialog.show();
-        getCategories();
+
+
     }
 
 
